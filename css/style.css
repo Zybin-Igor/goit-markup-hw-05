@@ -104,7 +104,6 @@ button {
 
 .header-nav .link {
   color: var(--logo-color);
-  font-weight: 600;
   text-decoration: none;
   transition: color var(--hover-transition);
 }
@@ -121,7 +120,7 @@ button {
   background-color: var(--click-color);
   border-radius: 2px;
   left: 0;
-  bottom: -3px;
+  bottom: -4px;
 }
 
 /*.header > .container {
@@ -215,13 +214,12 @@ line-height: 1.6;
 
 .header-tel,
 .header-email {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-decoration-color);
   padding-bottom: 24px;
   padding-top: 24px;
+  color: var(--text-decoration-color);
 }
 
 
@@ -635,7 +633,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 }*/
 .portfolio-item:hover,
 .portfolio-item:focus {
- border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -657,7 +654,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 .portfolio-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -674,10 +671,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 .portfolio-text {
-  /*padding-bottom: 32px;*/
-  padding-left: 16px;
-
-  font-size: 16px;
+    font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-decoration-color);
@@ -687,8 +681,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .portfolio-container {
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-right: 24px;
-  padding-left: 24px;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-top: 0;
   border-left: 1px solid var(--text-decoration-footer);
   border-right: 1px solid var(--text-decoration-footer);
@@ -829,9 +823,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 .portfolio-item:hover .card-text,
 .portfolio-item:focus .card-text {
-  border: 0.5px solid var(--lith-color);
+border: 0.5px solid var(--lith-color);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 
 /*.portfolio-item .card-text {
   border-bottom: 1px solid #e7e9fc;
