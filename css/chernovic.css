@@ -19,6 +19,18 @@ body {
   }
   
 }
+.rotator-btn {
+  display: block;
+  align-items: top;
+  margin-top: 30px;
+  padding: 0;
+}
+.label {
+  display: inline-block;
+  align-items: center;
+  margin-bottom: -40px;
+  padding: 0;
+}
 .btn {
   display: inline-flex;
   border: none;
@@ -47,3 +59,5 @@ body {
    background-color:coral;
   
   }
+  
+  
